@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Python</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .ebook-section, .ads-section, .contact-section {
+            margin-bottom: 40px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .ads {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .ad {
+            width: 200px;
+            height: 200px;
+            background-color: #ddd;
+            text-align: center;
+            line-height: 200px;
+            color: #555;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #f1f1f1;
+            color: #555;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome</h1>
+        <p>Download the Python Bible and become a Python programmer!</p>
+    </header>
+    <div class="container">
+        <section class="ebook-section">
+            <h2>Get My Ebook</h2>
+            <p>Click the button below to download my free ebook.</p>
+            <a href="https://drive.google.com/uc?export=download&id=1VjQ78n-AcIkPPbhgxq4q9XvfrB3RVO1M" class="button" download>Download Ebook</a>
+        </section>
+        <section class="ads-section">
+            <h2>Sponsored Ads</h2>
+            <div class="ads">
+                <div class="ad">Ad 1</div>
+                <div class="ad">Ad 2</div>
+                <div class="ad">Ad 3</div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                <button type="submit" class="button">Send</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 My Ebook Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
